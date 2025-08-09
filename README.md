@@ -109,6 +109,11 @@ Both models are saved (already) to `android/app/src/main/res/raw/`:
 ### 7.1 Issue you might encounter:
 - **No images found**: Make sure there are JPEG files in `calibration_imagenet/`
 - **Java version mismatch**: Check your Java version: `java -version`
+- **Android SDK**: Set your android sdk path variable: 
+```bash
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
+```
 - **Device not detected**: Make sure USB debugging enabled in your phone
 
 ### 7.2 Model Files:
