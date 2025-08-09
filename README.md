@@ -1,5 +1,9 @@
 # MobileNet Android Deployment
 
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org)
+[![Android](https://img.shields.io/badge/Android-API%2021+-green.svg)](https://developer.android.com)
+
 End-to-end pipeline for quantizing MobileNetV2 and deploying on Android devices. Reduces model size by 75% while maintaining accuracy for real-time mobile inference.
 
 ## 1. Quantize Mobilenet v2 model into Int8 from FP32
@@ -36,7 +40,7 @@ This will:
 - ✅ Export Pytorch's FP32 MobileNetV2 to ONNX format
 - ✅ Generate INT8 quantized version using calibration data: reduces model size for faster inference on edge devices like mobile.
 - ✅ Save both models directly to Android app assets: mobilenet-android-deployment/android/app/src/main/res/raw
-- ✅ Download ImageNet class labels: this is to map the predicted probablities to actual label names.
+- ✅ Download ImageNet class labels: this is to map the predicted probabilities to actual label names.
 - ✅ Test inference on both models: on a single image to make sure the model is working as expected.
 
 ## 2. Build Android App
@@ -140,7 +144,7 @@ ls -la android/app/src/main/res/raw/
 
 ### 9.1 Quantization Pipeline:
 - **PyTorch transforms function** for preprocessing
-- **ONNX static quantization** with calibration dataset: this is needed for ONNX to identity the model's weight ranges during qunatization.
+- **ONNX static quantization** with calibration dataset: this is needed for ONNX to identify the model's weight ranges during quantization.
 - **Calibration-based INT8 quantization**
 
 ### 9.2 Key Features:
@@ -150,3 +154,11 @@ ls -la android/app/src/main/res/raw/
 ---
 
 **Tech Stack:** PyTorch • ONNX Runtime • Android • Java • Mobilenet V2
+
+
+## 10. 📚 Additional Resources
+
+- https://onnxruntime.ai/docs/tutorials/mobile/deploy-android.html
+- https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html
+- https://arxiv.org/abs/1801.04381
+- https://developer.android.com/studio
