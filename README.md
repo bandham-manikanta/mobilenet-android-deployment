@@ -124,7 +124,7 @@ export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 ### 7.2 Model Files:
 ```bash
 # Check if the model files exists
-ls -la android/app/src/main/res/raw/
+ls -lh android/app/src/main/res/raw/
 # You should see:
 # mobilenetv2_fp32.onnx
 # mobilenetv2_int8.onnx  
