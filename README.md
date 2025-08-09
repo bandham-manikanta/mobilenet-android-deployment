@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org)
 [![Android](https://img.shields.io/badge/Android-API%2021+-green.svg)](https://developer.android.com)
+[![OpenJDK](https://img.shields.io/badge/OpenJDK-21+-red.svg)](https://openjdk.org/projects/jdk/21/)
 
 End-to-end pipeline for quantizing MobileNetV2 and deploying on Android devices. Reduces model size by 75% while maintaining accuracy for real-time mobile inference.
 
