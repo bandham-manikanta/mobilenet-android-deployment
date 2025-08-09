@@ -66,13 +66,9 @@ cd android
 
 ### 3.2 Install App:
 
-```bash
-# Connect phone via USB
-cd android
-./gradlew installDebug
-
-# Or open android/ folder in Android Studio and run
-```
+- Connect phone via USB
+- Open android/ folder in Android Studio and click on run
+![Build Screenshot](screenshots/android_studio_install_to_phone.png)
 
 ## 4. 📊 Performance Results
 
