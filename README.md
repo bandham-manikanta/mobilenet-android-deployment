@@ -51,7 +51,7 @@ cd android
 ./gradlew clean build
 ```
 ![Build Screenshot](screenshots/gradle_build.png)
-*Build screenshot for reference. - ignore the warnings, they are harmless for this use-case/*
+*Build screenshot for reference. - ignore the warnings, they are harmless for this use-case.
 
 
 ### 3. Deploy to Device
