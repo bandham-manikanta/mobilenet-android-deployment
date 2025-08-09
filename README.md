@@ -79,10 +79,10 @@ cd android
 
 *Results measured on Android devices with ONNX Runtime mobile. Refer to the screenshots below*
 
-![Quantized Model Inference](screenshots/quantized_model_inference_screenshot.png)
+![Quantized Model Inference](screenshots/android_studio_install_to_phone.png)
 *INT8 quantized model showing ~80ms inference time*
 
-![FP32 Model Inference](screenshots/non_quantized_model_inference_screenshot.png)
+![FP32 Model Inference](screenshots/android_studio_install_to_phone.png)
 *Original FP32 model showing ~200ms inference time*
 
 ## 5. 🔧 Configuration
