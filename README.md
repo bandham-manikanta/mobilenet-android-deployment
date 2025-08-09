@@ -50,7 +50,7 @@ This will:
 cd android
 ./gradlew clean build
 ```
-![Build Screenshot](screenshots/gradle_build.jpg)
+![Build Screenshot](screenshots/gradle_build.png)
 *Build screenshot for reference. - ignore the warnings, they are harmless for this use-case/*
 
 
@@ -83,10 +83,10 @@ cd android
 
 *Results measured on Android devices with ONNX Runtime mobile. Refer to the screenshots below*
 
-![Quantized Model Inference](screenshots/quantized_model_inference_screenshot.jpg)
+![Quantized Model Inference](screenshots/quantized_model_inference_screenshot.png)
 *INT8 quantized model showing ~80ms inference time*
 
-![FP32 Model Inference](screenshots/non_quantized_model_inference_screenshot.jpg)
+![FP32 Model Inference](screenshots/non_quantized_model_inference_screenshot.png)
 *Original FP32 model showing ~200ms inference time*
 
 ## 5. 🔧 Configuration
